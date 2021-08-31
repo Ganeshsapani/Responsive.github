@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORZA HORIZON 5</title>
+</head>
+<body>
+    <section>
+    
+
+    <div class="container">
+       
+        <div class="navbar">
+            <img src="logo1.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="https://www.microsoft.com/en-in">Microsoft</a></li>
+                    <li><a href="https://www.xbox.com/en-IN/games/forza-horizon-5">Official Page</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=FYH9n37B7Yw">Tralier</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu1-icon" 
+            onclick="togglemenu()">
+        </div>
+        
+        
+
+        <div class="row">
+            <div class="col-1">
+                <h2>FORZA HORIZON 5 </h2>
+                 <h3>Available from 9th November</h3>
+                 <p>(For X-box seriesX/ PC)</p>
+                 <h4>₹3999</h4> 
+                 <a href="https://www.microsoft.com/en-in/p/forza-horizon-5-standard-edition/9nkx70bbcdrn?activetab=pivot:overviewtab">
+                    <button type="button" >Pre-Order <img src="arrow.png">
+                 </button> </li> </a>
+            </div>
+         
+        
+            <div class="col-2">
+               <img src="forza.jpg" class="container2">
+               <div class="color-box"></div>
+               <div class="add-btn">
+                   <a href="https://www.microsoft.com/en-us/store/cart"><img src="add.png" ></a>
+                   <p><small>ADD TO CART</small></p>
+               </div>
+            </div>
+  
+    </div>
+            <div class="social-links">  
+                <a href="https://www.facebook.com/pages/category/App-Page/Forza-Horizon-5-2144911405800864/"><img src="fb.png" ></a>
+                <a href="https://twitter.com/search?q=%23forzahorizon5&lang=en"><img src="tw.png" ></a>
+                <a href="https://www.instagram.com/forzahorizonofficial/?hl=en"><img src="ig.png" ></a>
+            </div>
+        </div>
+
+        
+    </div>
+      <script>
+          var menuList = document.getElementById("menuList");
+
+          menuList.style.maxHeight = "0px";
+
+           function togglemenu(){
+
+               if(menuList.style.maxHeight == "0px")
+
+               {
+                   menuList.style.maxHeight = "130px";
+
+               }
+               else 
+               {
+                 menuList.style.maxHeight = "0px";
+               }
+           }
+      </script>
+      </section>
+</body>
+</html>
